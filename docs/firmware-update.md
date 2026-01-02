@@ -1,4 +1,4 @@
-# Updating firmware
+# Firmware update
 
 > [!IMPORTANT]
 > Always verify downloaded image checksum to ensure image integrity!
