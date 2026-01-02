@@ -28,19 +28,11 @@ To flash a new firmware into Juniper you need follow few steps:
 
 ### 1. Create backup
 
-Save current rescue configuration
+Save rescue config, autorecovery state and snapshot
 ```
-request system configuration rescue save
-```
-
-also save autorecovery state using
-```
-request system autorecovery state save
-```
-
-you can also create an snapshot to an external storage
-```
-request system snapshot
+request system configuration rescue save # Save rescue config
+request system autorecovery state save # Save autorecovery
+request system snapshot # Create snapshot
 ```
 
 ### 2. Copy new firmware image
